@@ -1,0 +1,14 @@
+Package: fileR
+Type: Package
+Title: A pipeable interface to directory and folder creation and use.
+Version: 0.1.0
+Author: Victor Lao
+Maintainer: Victor Lao <victorlelao@gmail.com>
+Description: Pipeable create and save operations to directories or 'folders'.
+    This package hopes increase organization of files within R projects by 
+    providing a helper functions to help organize inputs and outputs (e.g., 
+    save result as csv to folder).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
