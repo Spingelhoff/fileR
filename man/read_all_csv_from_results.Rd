@@ -13,7 +13,7 @@ directory to read from.}
 \item{...}{Passes arguments to `read.csv()`.}
 }
 \description{
-Reads all csv files in the 'data' directory or in a sub folder of the 'results'
+Reads all csv files in the 'results' directory or in a sub folder of the 'results'
 directory and saves them all as a list. File names are used as names for
 list items to allow easy identification of files.
 }
