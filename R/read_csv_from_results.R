@@ -1,8 +1,8 @@
-#' Retrieve file from results directory
+#' Retrieve file from 'results' directory.
 #'
 #' @description
 #' A wrapper around `read.csv()` but with a pre-determined path to the results
-#' directory. Sub folder is optional in results directory.
+#' directory. Sub folder is optional in 'results' directory.
 #'
 #' @param file_name Character input. Name of the file to be retrieved from
 #' 'results' directory without file extension.

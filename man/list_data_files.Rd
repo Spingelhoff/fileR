@@ -2,7 +2,7 @@
 % Please edit documentation in R/list_data_files.R
 \name{list_data_files}
 \alias{list_data_files}
-\title{List files in data directory}
+\title{List files in 'data' directory.}
 \usage{
 list_data_files(folder_name = NULL)
 }
@@ -13,6 +13,6 @@ list_data_files(folder_name = NULL)
 List of file names.
 }
 \description{
-Searches data directory for optional sub folder denoted by folder_name
+Searches 'data' directory for optional sub folder denoted by folder_name
 argument. If folder does not exist, function will throw an error.
 }

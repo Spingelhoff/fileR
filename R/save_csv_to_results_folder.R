@@ -1,5 +1,5 @@
-#' Pipeable function that saves the object passed in as a csv in the results
-#' directory
+#' Pipeable function that saves the object passed in as a csv in the 'results'
+#' directory.
 #'
 #' @description
 #' A wrapper around `write.csv()` but with a pre-determined path to
@@ -12,7 +12,7 @@
 #' extension.
 #' @param ... Passes arguments to `write.csv()`
 #'
-#' @returns The object 'x' that was passed in.
+#' @returns The object 'x' that was passed in invisibly.
 #'
 #' @export save_csv_to_results_folder
 

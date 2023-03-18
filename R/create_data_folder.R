@@ -1,8 +1,8 @@
-#' Creates a folder in the data directory.
+#' Creates a folder in the 'data' directory.
 #'
 #' @description
 #' Checks for the existence of specified sub folder in 'data' directory and
-#' creates it if it does not exist. Requires data and results directory to be
+#' creates it if it does not exist. Requires 'data' and 'results' directory to be
 #' set up.
 #'
 #' @param folder_name Character input. Sub folder name.

@@ -2,7 +2,7 @@
 % Please edit documentation in R/create_data_folder.R
 \name{create_data_folder}
 \alias{create_data_folder}
-\title{Creates a folder in the data directory.}
+\title{Creates a folder in the 'data' directory.}
 \usage{
 create_data_folder(folder_name)
 }
@@ -11,6 +11,6 @@ create_data_folder(folder_name)
 }
 \description{
 Checks for the existence of specified sub folder in 'data' directory and
-creates it if it does not exist. Requires data and results directory to be
+creates it if it does not exist. Requires 'data' and 'results' directory to be
 set up.
 }

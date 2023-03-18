@@ -1,4 +1,4 @@
-#' Set up 'data' and 'result' directories as prescribed by organizeR.
+#' Set up 'data' and 'result' directories as prescribed by fileR.
 #'
 #' @description
 #' Looks for directories named 'data' and 'result' in current directory. Will

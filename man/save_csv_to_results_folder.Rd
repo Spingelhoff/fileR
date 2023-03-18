@@ -2,8 +2,8 @@
 % Please edit documentation in R/save_csv_to_results_folder.R
 \name{save_csv_to_results_folder}
 \alias{save_csv_to_results_folder}
-\title{Pipeable function that saves the object passed in as a csv in the results
-directory}
+\title{Pipeable function that saves the object passed in as a csv in the 'results'
+directory.}
 \usage{
 save_csv_to_results_folder(x, folder_name, file_name, ...)
 }
@@ -18,7 +18,7 @@ extension.}
 \item{...}{Passes arguments to `write.csv()`}
 }
 \value{
-The object 'x' that was passed in.
+The object 'x' that was passed in invisibly.
 }
 \description{
 A wrapper around `write.csv()` but with a pre-determined path to

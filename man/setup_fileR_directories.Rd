@@ -2,7 +2,7 @@
 % Please edit documentation in R/setup_fileR_directories.R
 \name{setup_fileR_directories}
 \alias{setup_fileR_directories}
-\title{Set up 'data' and 'result' directories as prescribed by organizeR.}
+\title{Set up 'data' and 'result' directories as prescribed by fileR.}
 \usage{
 setup_fileR_directories()
 }

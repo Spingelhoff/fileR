@@ -2,7 +2,7 @@
 % Please edit documentation in R/read_csv_from_data.R
 \name{read_csv_from_data}
 \alias{read_csv_from_data}
-\title{Retrieve file from data directory}
+\title{Retrieve file from 'data' directory.}
 \usage{
 read_csv_from_data(file_name, folder_name = NULL, ...)
 }
@@ -20,7 +20,5 @@ File contents as an object.
 }
 \description{
 A wrapper around `read.csv()` but with a pre-determined path to the data
-directory. Sub folder is optional in data directory. If a folder is
-specified but does not currently exist, the function will create that
-folder.
+directory. Sub folder is optional in data directory.
 }

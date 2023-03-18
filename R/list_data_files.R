@@ -1,7 +1,7 @@
-#' List files in data directory
+#' List files in 'data' directory.
 #'
 #' @description
-#' Searches data directory for optional sub folder denoted by folder_name
+#' Searches 'data' directory for optional sub folder denoted by folder_name
 #' argument. If folder does not exist, function will throw an error.
 #'
 #' @param folder_name Character input. 'data' sub folder name.

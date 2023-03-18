@@ -2,7 +2,7 @@
 % Please edit documentation in R/read_csv_from_results.R
 \name{read_csv_from_results}
 \alias{read_csv_from_results}
-\title{Retrieve file from results directory}
+\title{Retrieve file from 'results' directory.}
 \usage{
 read_csv_from_results(file_name, folder_name = NULL, ...)
 }
@@ -20,5 +20,5 @@ File contents as an object.
 }
 \description{
 A wrapper around `read.csv()` but with a pre-determined path to the results
-directory. Sub folder is optional in results directory.
+directory. Sub folder is optional in 'results' directory.
 }

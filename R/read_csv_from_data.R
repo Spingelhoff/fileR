@@ -1,10 +1,8 @@
-#' Retrieve file from data directory
+#' Retrieve file from 'data' directory.
 #'
 #' @description
 #' A wrapper around `read.csv()` but with a pre-determined path to the data
-#' directory. Sub folder is optional in data directory. If a folder is
-#' specified but does not currently exist, the function will create that
-#' folder.
+#' directory. Sub folder is optional in data directory.
 #'
 #' @param file_name Character input. Name of the file to be retrieved from
 #' 'data' directory without file extension.
