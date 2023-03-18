@@ -3,6 +3,8 @@
 export(create_data_folder)
 export(list_data_files)
 export(read_all_csv_from_data)
+export(read_all_csv_from_results)
 export(read_csv_from_data)
+export(read_csv_from_results_folder)
 export(save_csv_to_results_folder)
 export(setup_fileR_directories)
