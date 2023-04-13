@@ -31,6 +31,22 @@ Purpose: To create a folder in the 'data' directory. Data should be moved into p
 
 Purpose: To list files in 'data' directory and optionally a sub-directory of the 'data' directory.
 
+### move_all_files_to_data_folder()
+
+Purpose: To move all files recursively in the 'data' directory to a specified 'data' folder. Files in the target folder prior to move are not affected.
+
+### move_all_files_to_results_folder()
+
+Purpose: To move all files recursively in the 'results' directory to a specified 'results' folder. Files in the target folder prior to move are not affected.
+
+### move_files_between_data_folders()
+
+Purpose: To move all files in one 'data' folder to another 'data' folder.
+
+### move_files_between_results_folders()
+
+Purpose: To move all files in one 'results' folder to another 'results' folder.
+
 ### read_all_csv_from_data()
 
 Purpose: To return all csv files in the 'data' directory as a list. Sub-directories of the 'data' directory can also be targeted.
