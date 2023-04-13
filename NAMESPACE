@@ -2,6 +2,10 @@
 
 export(create_data_folder)
 export(list_data_files)
+export(move_all_files_to_data_folder)
+export(move_all_files_to_results_folder)
+export(move_files_between_data_folders)
+export(move_files_between_results_folders)
 export(read_all_csv_from_data)
 export(read_all_csv_from_results)
 export(read_csv_from_data)
