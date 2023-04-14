@@ -33,11 +33,11 @@ Purpose: To list files in 'data' directory and optionally a sub-directory of the
 
 ### move_all_files_to_data_folder()
 
-Purpose: To move all files recursively in the 'data' directory to a specified 'data' folder. Files in the target folder prior to move are not affected.
+Purpose: To move all files recursively in the 'data' directory to a specified 'data' folder. Files in the target folder prior to move are not affected. Additional folders can be specified, optionally.
 
 ### move_all_files_to_results_folder()
 
-Purpose: To move all files recursively in the 'results' directory to a specified 'results' folder. Files in the target folder prior to move are not affected.
+Purpose: To move all files recursively in the 'results' directory to a specified 'results' folder. Files in the target folder prior to move are not affected. Additional folders can be specified, optionally.
 
 ### move_files_between_data_folders()
 
