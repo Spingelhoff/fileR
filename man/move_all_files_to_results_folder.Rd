@@ -5,11 +5,13 @@
 \title{Recursively moves all files in the results directory except those in the target
 folder to the target folder.}
 \usage{
-move_all_files_to_results_folder(to)
+move_all_files_to_results_folder(to, exclude = NULL)
 }
 \arguments{
 \item{to}{Character input. Specify sub folder in 'results' directory to read
 from.}
+
+\item{exclude}{Character input. Specify additional tables to ignore.}
 }
 \description{
 Copies and pastes all files in the results 'folder' to a target folder while

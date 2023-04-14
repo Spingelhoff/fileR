@@ -8,9 +8,11 @@
 #' @param to Character input. Specify sub folder in 'results' directory to read
 #' from.
 #'
+#' @param exclude Character input. Specify additional tables to ignore.
+#'
 #' @export move_all_files_to_results_folder
 
-move_all_files_to_results_folder <- function(to) {
+move_all_files_to_results_folder <- function(to, exclude = NULL) {
   if(!is.character(to)) {
     stop("to parameter must be of type character")
   }
@@ -19,11 +21,32 @@ move_all_files_to_results_folder <- function(to) {
   }
   all_files <- list.files(paste0("./results"), recursive = TRUE, full.names = TRUE)
   target_files <- all_files[!grepl(paste0("^./results/", to, "/"), all_files)]
+  if(!is.null(exclude)) {
+    if(is.character(exclude)) {
+      lapply(
+        exclude,
+        function(x) target_files <<- target_files[!grepl(paste0("^./results/", x, "/"), target_files)]
+      )
+    } else {
+      stop("exclusion(s) must be of type character")
+    }
+  }
   file.copy(
     from = target_files,
     to = paste0("./results/", to, "/")
   )
-  from_test <- sub("^.*/", "", list.files("./results", recursive = TRUE))
+  from_test <- list.files("./results", recursive = TRUE)
+  if(!is.null(exclude)) {
+    if(is.character(exclude)) {
+      lapply(
+        exclude,
+        function(x) from_test <<- from_test[!grepl(paste0("^", x, "/"), from_test)]
+      )
+    } else {
+      stop("exclusion(s) must be of type character")
+    }
+  }
+  from_test <- sub("^.*/", "", from_test)
   to_test <- list.files(paste0("./results/", to))
   if(!all((from_test %in% to_test))) {
     stop("files were not correctly copied")
