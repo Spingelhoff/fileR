@@ -27,7 +27,7 @@ Functions were named to be descriptive at the cost of being verbose.
 
 Purpose: To create a folder in the 'data' directory. Data should be moved into pre-existing 'data' locations. 
 
-### create_data_folder()
+### create_results_folder()
 
 Purpose: To create a folder in the 'results' directory. All manipulated data should be output into the 'results' directory. 
 
