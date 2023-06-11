@@ -27,6 +27,10 @@ Functions were named to be descriptive at the cost of being verbose.
 
 Purpose: To create a folder in the 'data' directory. Data should be moved into pre-existing 'data' locations. 
 
+### create_data_folder()
+
+Purpose: To create a folder in the 'results' directory. All manipulated data should be output into the 'results' directory. 
+
 ### list_data_files()
 
 Purpose: To list files in 'data' directory and optionally a sub-directory of the 'data' directory.
@@ -69,4 +73,4 @@ Purpose: To save an object to the 'results' directory or one of its sub-director
 
 ### setup_fileR_directories()
 
-Purpose: Creates 'data' and 'results' directories. Projects using fileR should start with this function.
+Purpose: Creates 'data' and 'results' directories. Projects using fileR should start with this function. Optionally creates setup scripts to help quickly start up projects.
