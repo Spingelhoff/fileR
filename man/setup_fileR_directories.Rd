@@ -4,11 +4,15 @@
 \alias{setup_fileR_directories}
 \title{Set up 'data' and 'result' directories as prescribed by fileR.}
 \usage{
-setup_fileR_directories()
+setup_fileR_directories(setup = TRUE)
+}
+\arguments{
+\item{setup}{Boolean input. Optionally creates setup .R script files.}
 }
 \description{
 Looks for directories named 'data' and 'result' in current directory. Will
 creates them if directories do not exist. This is the set up for all other
 functions in the package and it is expected projects start by calling this
-function.
+function. Will also optionally create directory and library setup .R files
+to reduce project start up time.
 }
