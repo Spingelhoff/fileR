@@ -59,6 +59,6 @@ test_that("correct lines are written to directory setup file", {
       setup_fileR_directories(setup = TRUE)
       readLines("directory_setup.R")
     }),
-    c("source(library_setup.R)", "setup_fileR_directories()")
+    c("source(\"library_setup.R\")", "setup_fileR_directories()")
   )
 })

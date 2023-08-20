@@ -6,7 +6,7 @@
 #' functions in the package and it is expected projects start by calling this
 #' function. Will also optionally create directory and library setup .R files
 #' to reduce project start up time.
-#' 
+#'
 #' @param setup Boolean input. Optionally creates setup .R script files.
 #'
 #' @export setup_fileR_directories
@@ -31,7 +31,7 @@ setup_fileR_directories <- function(setup = TRUE) {
   if(!file.exists("directory_setup.R") & setup == TRUE) {
     file.create("directory_setup.R")
     writeLines(
-      c("source(library_setup.R)", "setup_fileR_directories()"),
+      c('source("library_setup.R")', "setup_fileR_directories()"),
       con = "directory_setup.R"
     )
   }
